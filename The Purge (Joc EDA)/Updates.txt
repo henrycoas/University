@@ -1,0 +1,44 @@
+HenryKingus-----------------------
+- Benvinguts a la versió final
+- No cal sempre anar a per enemics de dia, millor comprova la ronda i ves a per diners o a per enemics segons
+
+KingusMk5-------------------------
+- Si warrior de noche a 2 de distancia de enemigo mas fuerte, avoid
+- Equal weapon warriors also attack each other if the other one is 1 hit from dying
+- Bye to guns_available booleans (it could be that one is unreachable for one warrior but not for another)
+- Barricade BFS never returns 0 and barricades cant be adjacent
+- Barricades are not built to the max, they are now built one step below
+
+
+KingusMk4-------------------------
+- Constants redefinides
+
+
+KingusMk3--------------------------
+- Barricades ja no son per amagar-se
+- Vector de direccions invertit
+
+
+KingusMk2---------------------------
+- Barricades en punts estrategics
+- Els que tenen bazookas intenten matar primer als warriors, si no n'hi hagues, maten als builders
+
+
+KingusMk1--------------------------
+- Va bastant bé
+
+
+Kingus----------------------------
+- Es va a per l'arma més forta però que estigui més propera
+- BFS funciona bé (l'error estava en que s'intentava passar per damunt d'enemics de dia i no inicialitzava bé la distancia 0 de l'origen)
+
+
+Rift--------------------------------
+- Molt més millorada que l'anterior
+- Diria que el BFS no funciona perfecte encara, en concret amb la búsqueda dels enemics quan no tens bazooka
+- Builders ja es mouen com toca
+
+
+HenryOne----------------------------
+- Va bé però la manera de plantejar el BFS no és la correcta
+- No s'ha de buscar la següent víctima o objectiu a base de provar un a un cada instància, sinò que amb el bfs ja es troba el més a prop primer
