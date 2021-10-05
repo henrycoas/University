@@ -1,0 +1,112 @@
+# lee_cjt_especies
+
+# imprime_cjt_especies
+a AAAAGATGACCAGCGTAATG
+b GCAACCTTTGTGGGCGCAGT
+c ACGATTTGCGTAAGCTATGT
+d GCTCCTGTCCGTTTCAGCCG
+e TACACCATTAACCGGTGGGG
+
+# distancia a c
+71.4286
+
+# distancia x c
+ERROR: La especie x no existe.
+
+# distancia a x
+ERROR: La especie x no existe.
+
+# distancia x y
+ERROR: La especie x y la especie y no existen.
+
+# distancia c a
+71.4286
+
+# obtener_gen c
+ACGATTTGCGTAAGCTATGT
+
+# obtener_gen x
+ERROR: La especie x no existe.
+
+# tabla_distancias
+a: b (90.9091) c (71.4286) d (90.9091) e (90.9091)
+b: c (87.5) d (87.5) e (83.871)
+c: d (83.871) e (94.1176)
+d: e (97.1429)
+e:
+
+# crea_especie f GAAAAAAAAAAAAAAAAAAAAA
+
+# crea_especie f TCGATACCAGAGAAACTGTT
+ERROR: La especie f ya existe.
+
+# crea_especie g AAAAAAAAAAAAAAAAAAAAAA
+
+# crea_especie h AAAAAAAAAAAAAAAAAAAAAG
+
+# imprime_cjt_especies
+a AAAAGATGACCAGCGTAATG
+b GCAACCTTTGTGGGCGCAGT
+c ACGATTTGCGTAAGCTATGT
+d GCTCCTGTCCGTTTCAGCCG
+e TACACCATTAACCGGTGGGG
+f GAAAAAAAAAAAAAAAAAAAAA
+g AAAAAAAAAAAAAAAAAAAAAA
+h AAAAAAAAAAAAAAAAAAAAAG
+
+# tabla_distancias
+a: b (90.9091) c (71.4286) d (90.9091) e (90.9091) f (94.4444) g (94.4444) h (91.4286)
+b: c (87.5) d (87.5) e (83.871) f (100) g (100) h (100)
+c: d (83.871) e (94.1176) f (100) g (100) h (97.2973)
+d: e (97.1429) f (100) g (100) h (100)
+e: f (100) g (100) h (100)
+f: g (9.52381) h (9.52381)
+g: h (9.52381)
+h:
+
+# elimina_especie h
+
+# elimina_especie h
+ERROR: La especie h no existe.
+
+# existe_especie f
+SI
+
+# existe_especie h
+NO
+
+# imprime_cjt_especies
+a AAAAGATGACCAGCGTAATG
+b GCAACCTTTGTGGGCGCAGT
+c ACGATTTGCGTAAGCTATGT
+d GCTCCTGTCCGTTTCAGCCG
+e TACACCATTAACCGGTGGGG
+f GAAAAAAAAAAAAAAAAAAAAA
+g AAAAAAAAAAAAAAAAAAAAAA
+
+# tabla_distancias
+a: b (90.9091) c (71.4286) d (90.9091) e (90.9091) f (94.4444) g (94.4444)
+b: c (87.5) d (87.5) e (83.871) f (100) g (100)
+c: d (83.871) e (94.1176) f (100) g (100)
+d: e (97.1429) f (100) g (100)
+e: f (100) g (100)
+f: g (9.52381)
+g:
+
+# lee_cjt_especies
+
+# imprime_cjt_especies
+
+# tabla_distancias
+
+# crea_especie pangolin AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+# imprime_cjt_especies
+pangolin AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+# tabla_distancias
+pangolin:
+
+# obtener_gen pangolin
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+

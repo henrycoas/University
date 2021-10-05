@@ -1,0 +1,55 @@
+3
+
+lee_cjt_especies
+5
+d    GCTCCTGTCCGTTTCAGCCG
+e    TACACCATTAACCGGTGGGG
+a    AAAAGATGACCAGCGTAATG
+b    GCAACCTTTGTGGGCGCAGT
+c    ACGATTTGCGTAAGCTATGT
+
+imprime_cjt_especies
+
+distancia a c
+distancia x c
+distancia a x
+distancia x y
+distancia c a
+
+obtener_gen c
+obtener_gen x
+tabla_distancias
+
+crea_especie f    GAAAAAAAAAAAAAAAAAAAAA
+crea_especie f    TCGATACCAGAGAAACTGTT
+crea_especie g    AAAAAAAAAAAAAAAAAAAAAA
+crea_especie h    AAAAAAAAAAAAAAAAAAAAAG
+
+imprime_cjt_especies
+tabla_distancias
+
+elimina_especie h
+elimina_especie h
+
+existe_especie f
+existe_especie h
+
+imprime_cjt_especies
+tabla_distancias
+
+lee_cjt_especies
+0
+
+imprime_cjt_especies
+
+tabla_distancias
+
+crea_especie pangolin AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+imprime_cjt_especies
+
+tabla_distancias
+
+obtener_gen pangolin
+
+fin
