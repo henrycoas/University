@@ -1,4 +1,5 @@
 HenryKingus-----------------------
+- Final version.
 - Warriors check for round number and decide whether gather money/weapons (first day rounds) or follow enemies (last day rounds) to quickly kill them at night.
 
 
