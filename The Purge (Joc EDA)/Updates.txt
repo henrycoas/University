@@ -1,44 +1,42 @@
 HenryKingus-----------------------
-- Benvinguts a la versió final
-- No cal sempre anar a per enemics de dia, millor comprova la ronda i ves a per diners o a per enemics segons
+- It is not necessary to hunt enemies all day long, it's better to check for round and decide wheter gather money (first day rounds) or follow enemies (last day rounds) to quickly kill them at night
+
 
 KingusMk5-------------------------
-- Si warrior de noche a 2 de distancia de enemigo mas fuerte, avoid
-- Equal weapon warriors also attack each other if the other one is 1 hit from dying
-- Bye to guns_available booleans (it could be that one is unreachable for one warrior but not for another)
-- Barricade BFS never returns 0 and barricades cant be adjacent
-- Barricades are not built to the max, they are now built one step below
+- If a stronger warrior is two steps or closer, run away strategically
+- If the enemy warrior has the same weapon as the ally, the ally will only attack him iff enemy is 1 hit from dying
+- Bye, bye to guns_available booleans (it could be that one is unreachable for one warrior but not for another)
+- Barricades won't be build in adjacent positions
+- Barricades are not built to the max, they are now built one step below (increases chance enemies will waste time breaking them)
 
 
 KingusMk4-------------------------
-- Constants redefinides
+- Redefined constants
 
 
 KingusMk3--------------------------
-- Barricades ja no son per amagar-se
-- Vector de direccions invertit
+- Barricades are not for hiding anymore
+- Directions' vector reversed
 
 
 KingusMk2---------------------------
-- Barricades en punts estrategics
-- Els que tenen bazookas intenten matar primer als warriors, si no n'hi hagues, maten als builders
+- Barricades in strategic points
+- Bazooka warriors try to kill enemy warriors first; but if there aren't any close enough, they hunt builders
 
 
 KingusMk1--------------------------
-- Va bastant bé
+- Code reformatted and minimal improvements
 
 
 Kingus----------------------------
-- Es va a per l'arma més forta però que estigui més propera
-- BFS funciona bé (l'error estava en que s'intentava passar per damunt d'enemics de dia i no inicialitzava bé la distancia 0 de l'origen)
+- Takes into account how good a weapon on the floor is and how far it is to go and pick it up
+- BFS fixed (the error was that it wasn't accounting the presence of enemies during day and distance wasn't initialized to 0 correctly)
 
 
 Rift--------------------------------
-- Molt més millorada que l'anterior
-- Diria que el BFS no funciona perfecte encara, en concret amb la búsqueda dels enemics quan no tens bazooka
-- Builders ja es mouen com toca
+- Implemented BFS but needs improvement when ally warrior doesn't have bazooka
+- Builders now move correctly through the map
 
 
 HenryOne----------------------------
-- Va bé però la manera de plantejar el BFS no és la correcta
-- No s'ha de buscar la següent víctima o objectiu a base de provar un a un cada instància, sinò que amb el bfs ja es troba el més a prop primer
+- First version
