@@ -10,5 +10,5 @@
 
 
 ### PIC Catcher [C]
-- Computer Structures project
+- Computer Interfacing project
 - Programmed using Proteus for a PIC18F45K22 and a GLCD
