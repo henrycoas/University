@@ -13,5 +13,7 @@
 - Computer Interfacing project
 - Programmed using Proteus for a PIC18F45K22 and a GLCD
 
+
 ### Finland and Spain songs comparison [R, Python]
 - Probability and Statistics project
+- Developed with @rocsalvador and @XcollR
