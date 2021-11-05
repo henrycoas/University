@@ -16,4 +16,4 @@
 
 ### Finland and Spain songs comparison [R, Python]
 - Probability and Statistics project
-- Developed with @rocsalvador and @XcollR
+- Developed with [@rocsalvador](https://github.com/rocsalvador) and [@XcollR](https://github.com/XcollR)
